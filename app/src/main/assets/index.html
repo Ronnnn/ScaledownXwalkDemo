@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+    <title>scale</title>
+</head>
+<body>
+    <p>devicePixelRatio: <script>document.write(window.devicePixelRatio);</script></p>
+    <hr/>
+    <table>
+        <tr>
+            <th>Normal letter</th>
+            <th>Resized image</th>
+        </tr>
+        <tr>
+            <td><p style="font-family:arial;font-size:14px">A</p></td>
+            <td><img src="letter-a.png" width="10"></td>
+        </tr>
+        <tr>
+            <td><p style="font-family:arial;font-size:34px">A</p></td>
+            <td><img src="letter-a.png" width="30"></td>
+        </tr>
+        <tr>
+            <td><p style="font-family:arial;font-size:68px">A</p></td>
+            <td><img src="letter-a.png" width="60"></td>
+        </tr>
+    </table>
+</body>
+</html>
